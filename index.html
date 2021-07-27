@@ -1,77 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
     <title>A Tribute Page</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
+      <div class="nav_box">
         <nav>
-            <ul><a href=""></a>
-                <a href=""></a>
-                <a href=""></a>
-            </ul>
+          <div class="circle"></div>
+          <ul>
+            <li><a class="nav_links" href="">about</a></li>
+            <li><a class="nav_links" href="">albums</a></li>
+            <li><a class="nav_links" href="">more</a></li>
+          </ul>
         </nav>
+      </div>
     </header>
 
     <main>
-        <section class="section_one">
-            <div class="portrait">
-                <img src="/assets/img/portrait.jpg" alt="brian eno portrait">
-            </div>
-            <div>
-                <h1>
-                    brian eno
-                </h1>
-            </div>
-        </section>
+      <section class="section_one">
+        <div class="portrait_container container">
+          <img
+            class="portrait_img"
+            src="/assets/img/portrait.jpg"
+            alt="brian eno portrait"
+          />
+        </div>
+        <div class="heading">
+          <h1>brian eno</h1>
+        </div>
+      </section>
 
-        <section class="section_two">
-            <div class="container">
-                <div>
-                    <p>
-                        English musician, composer, record producer, visual artist, and theorist best known for his pioneering work in ambient music and contributions to rock, pop and electronica. A self-described "non-musician", Eno has helped introduce unique conceptual approaches and recording techniques to contemporary music. He has been described as one of popular music's most influential and innovative figures.
-                    </p>
-                </div>
-                <div class="spotify">
-                    <iframe src="https://open.spotify.com/embed/artist/7MSUfLeTdDEoZiJPDSBXgi" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-                </div>
-            </div>
-        </section>
+      <section class="section_two">
+        <div class="container">
+          <div>
+            <p>
+              English musician, composer, record producer, visual artist, and
+              theorist best known for his pioneering work in ambient music and
+              contributions to rock, pop and electronica. A self-described
+              "non-musician", Eno has helped introduce unique conceptual
+              approaches and recording techniques to contemporary music. He has
+              been described as one of popular music's most influential and
+              innovative figures.
+            </p>
+          </div>
+          <div class="spotify">
+            <iframe
+              src="https://open.spotify.com/embed/artist/7MSUfLeTdDEoZiJPDSBXgi"
+              width="300"
+              height="380"
+              frameborder="0"
+              allowtransparency="true"
+              allow="encrypted-media"
+            ></iframe>
+          </div>
+        </div>
+      </section>
 
-        <section class="section_three">
-            <div class="grid_container">
-                <div class="album_box"><a href=""><img src="/assets/img/album1.jpg" alt="" class="album_cover"></a></div>
-                <div class="album_box"><a href=""><img src="/assets/img/album2.jpg" alt="" class="album_cover"></a></div>
-                <div class="album_box"><a href=""><img src="/assets/img/album3.jpg" alt="" class="album_cover"></a></div>
-                <div class="album_box"><a href=""><img src="/assets/img/album4.jpg" alt="" class="album_cover"></a></div>
-                <div class="album_box"><a href=""><img src="/assets/img/album5.jpg" alt="" class="album_cover"></a></div>
-                <div class="album_box"><a href=""><img src="/assets/img/album6.jpg" alt="" class="album_cover"></a></div>
-                <div class="album_box"><a href=""><img src="/assets/img/album7.jpg" alt="" class="album_cover"></a></div>
-                <div class="album_box"><a href=""><img src="/assets/img/album8.jpg" alt="" class="album_cover"></a></div>
-                <div class="album_box"><a href=""><img src="/assets/img/album9.jpg" alt="" class="album_cover"></a></div>
-            </div>
-        </section>
+      <section class="section_three">
+        <div class="grid_container container">
+          <div class="album_box">
+            <a href=""
+              ><img src="/assets/img/album1.jpg" alt="" class="album_cover"
+            /></a>
+          </div>
+          <div class="album_box">
+            <a href=""
+              ><img src="/assets/img/album2.jpg" alt="" class="album_cover"
+            /></a>
+          </div>
+          <div class="album_box">
+            <a href=""
+              ><img src="/assets/img/album3.jpg" alt="" class="album_cover"
+            /></a>
+          </div>
+          <div class="album_box">
+            <a href=""
+              ><img src="/assets/img/album4.jpg" alt="" class="album_cover"
+            /></a>
+          </div>
+          <div class="album_box">
+            <a href=""
+              ><img src="/assets/img/album5.jpg" alt="" class="album_cover"
+            /></a>
+          </div>
+          <div class="album_box">
+            <a href=""
+              ><img src="/assets/img/album6.jpg" alt="" class="album_cover"
+            /></a>
+          </div>
+          <div class="album_box">
+            <a href=""
+              ><img src="/assets/img/album7.jpg" alt="" class="album_cover"
+            /></a>
+          </div>
+          <div class="album_box">
+            <a href=""
+              ><img src="/assets/img/album8.jpg" alt="" class="album_cover"
+            /></a>
+          </div>
+          <div class="album_box">
+            <a href=""
+              ><img src="/assets/img/album9.jpg" alt="" class="album_cover"
+            /></a>
+          </div>
+        </div>
+      </section>
 
-        <section class="section_four">
-            <div class="links_container">
-                <ul>
-                    <li><a href="https://brian-eno.net/">official</a></li>
-                    <li><a href="https://en.wikipedia.org/wiki/Brian_Eno">wiki</a></li>
-                    <li><a href="https://brianenoallsaints.bandcamp.com/">bandcamp</a></li>
-                    <li><a href="https://www.discogs.com/artist/634-Brian-Eno">discogs</a></li>
-                    <li><a href="https://www.facebook.com/BrianEno">facebook</a></li>
-                    <li><a href="https://twitter.com/brianeno">twitter</a></li>
-                </ul>
-            </div>
-        </section>
+      <!-- <section class="section_four">
+        <div class="links_container container">
+          <ul>
+            <li><a href="https://brian-eno.net/">official</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Brian_Eno">wiki</a></li>
+            <li>
+              <a href="https://brianenoallsaints.bandcamp.com/">bandcamp</a>
+            </li>
+            <li>
+              <a href="https://www.discogs.com/artist/634-Brian-Eno">discogs</a>
+            </li>
+            <li><a href="https://www.facebook.com/BrianEno">facebook</a></li>
+            <li><a href="https://twitter.com/brianeno">twitter</a></li>
+          </ul>
+        </div>
+      </section> -->
     </main>
 
-
     <!-- tests script -->
-    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-</body>
+    <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+  </body>
 </html>
