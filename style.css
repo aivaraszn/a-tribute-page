@@ -37,6 +37,7 @@ a{
     text-decoration: none;
 }
 
+
 /* nav styles */
 
 header {
@@ -108,5 +109,99 @@ h1 {
     letter-spacing: 3rem;
     color: var(--color-grey);
     text-transform: uppercase;
+}
+
+/* section 2 styles */
+
+.section_two_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section_two_container > .p_container{
+    border-right: 1px solid var(--color-white);
+    height: 100vh;
+    display: flex;
+    width: 50%;
+}
+
+.section_two_container > div > p {
+    font-size: 3.5rem;
+    line-height: 6.4rem;
+    align-self: center;
+    justify-self: center;
+    padding-right: 15rem;
+}
+
+ .spotify {
+    display: flex;
+    justify-content: center;
+    padding-left: 15rem;
+ }
+
+ iframe {
+    height: 50rem;
+    width: 50rem;
+    align-self: center;
+ }
+
+/* section 3 styles */
+
+.section_three {
+    display: inline-block;
+    width: 100%;
+}
+
+.section_three > .left {
+    display: inline-block;
+    float: left;
+    width: 10%;
+    height: 100vh;
+    border-right: 1px solid var(--color-white);
+}
+
+.gallery_container{
+    display: inline-block;
+    width: 80%;
+    height: 100%;
+}
+
+.section_three > .right {
+    display: inline-block;
+    float: right;
+    width: 10%;
+    height: 100vh;
+    border-left: 1px solid var(--color-white);
+}
+
+.grid_container {
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.album_box {
+    border: 1px solid var(--color-white);
+    height: 29rem;
+    width: 26rem; 
+    justify-self: center;
+    align-self: center;
+    position: relative;
+}
+.album_box > a {
+    width: 100%;
+    height: 100%;
+}
+.album_cover {
+    max-width:85%;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
 }
 
