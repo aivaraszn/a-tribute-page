@@ -91,7 +91,7 @@ li {
 
 .portrait_img {
   filter: grayscale(80%) brightness(50%);
-  width: 664px;
+  max-width: 66.4rem;
 }
 
 .heading {
